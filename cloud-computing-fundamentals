@@ -1,0 +1,55 @@
+[The Five Elements of Cloud Computing]
+
+- On-Demand Self-Service
+    - Provision and Terminate using a UI/CLI without human interaction
+
+- Broad Network Access
+    - Access services over any networks, on any devices, using standard protocols and methods
+
+- Resource Pooling
+    - Economies of scale, cheaper service
+
+- Rapid Elasticity
+    - Scale UP (OUT) and DOWN (IN) automatically in response to system load
+
+- Measured Service
+    - Usage is measured. Pay for what you consume
+
+[Different Clouds]
+
+- Public Cloud
+    - Using ONE public cloud
+
+- Private Cloud
+    - Using one premises “REAL” cloud
+
+- Multi-Cloud
+    - Using MORE THAN ONE public cloud
+
+- Hybrid Cloud
+    - Public and Private clouds
+    - Hybrid Cloud is NOT public cloud + legacy on-premises
+        - This would be known as a Hybrid Network / Environment
+
+[Cloud Service Models]
+
+- Infrastructure Stack
+    - A collection of things that application needs, all stacked onto each other
+        - Application > Data > Runtime > Container > OS > Virtualization > Servers > Infrastructure > Facilities
+    - Parts YOU manage
+    - Parts managed by the VENDOR
+    - Unit of consumption
+        - It’s what you pay for an consume
+        - It’s the part of the system where from that point upwards in the infrastructure stack you are responsible for management
+
+- IaaS (Infrastructure as a Service)
+    - The provider manages the facilities, infrastructure, servers and virtualization
+    - You manage the OS, container, runtime, data and application
+
+- PaaS (Platform as a Service)
+    - Your unit of consumption is the runtime environment, application and data
+    - The provider manages everything else
+
+- SaaS (Software as a Service)
+    - Your unit of consumption is the application
+    - The provider manages everything else
